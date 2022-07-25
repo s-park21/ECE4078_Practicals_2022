@@ -13,7 +13,7 @@ To do you home work:
 - Download it locally to your machine
 - Submit the file to Moodle before deadline.
 
-A visual guide is included in this [video](https://www.youtube.com/zA7RqTRkFPA).
+A visual guide is included in this [video](https://youtu.be/zA7RqTRkFPA).
 
 
 
