@@ -44,7 +44,7 @@ For those of you who don't want to run things on the cloud, feel free to clone t
 
 ### Running with `jupyter`
 
-The repo includes `requirements.txt` that lists all the dependencies.
+The repo includes `dependencies.txt` that lists all the dependencies (I didn't use `requirements.txt` because Deepnote will actually try to install stuff inside `requirements.txt` which is redundant).
 
 Sometimes the `ipywidgets` will not work properly out of the box, you have to look online yourself on how to enable that in your `jupyter notebook` or `jupyter lab` (It is pretty straightforward).
 
