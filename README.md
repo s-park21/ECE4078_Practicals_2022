@@ -15,11 +15,19 @@ To do you home work:
 
 A visual guide is included in this [video](https://youtu.be/zA7RqTRkFPA).
 
-# Grading
+# Homework
+
+### Grading Test Cases
 
 At the end of each notebook with `_exercise` suffix (which is your homework), I already included the a few test cases along with point allocations that we are going to use to grade you (at the end of the notebook). Note that we **may** test against additional test cases when I actually grade your notebook, so passing all the test cases will not guarantee obtaining the points but does increase your chance by a lot.
 
-We use result-based auto-grading so there will be no partial mark for your solution!
+We use result-based **auto-grading** so there will be no partial mark for your solution!
+
+### Submission
+
+There is only one `_exercise` notebook per week folder, please download that file to your local machine when you feel good about your homework's solution, and submit that to Moodle. 
+
+NOTE: if there are 2 `.ipynb` in your Moodle submission box, you will receive 0. Only submit ONE `.ipynb` file to Moodle and any extra file that is relevant (there will be weeks where we require you to submit your notebook along with other files, such as `.pt` for the weight of neural network). 
 
 # What to do when new content is released
 
