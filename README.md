@@ -15,6 +15,12 @@ To do you home work:
 
 A visual guide is included in this [video](https://youtu.be/zA7RqTRkFPA).
 
+# Grading
+
+At the end of each notebook with `_exercise` suffix (which is your homework), I already included the a few test cases along with point allocations that we are going to use to grade you (at the end of the notebook). Note that we **may** test against additional test cases when I actually grade your notebook, so passing all the test cases will not guarantee obtaining the points but does increase your chance by a lot.
+
+We use result-based auto-grading so there will be no partial mark for your solution!
+
 # What to do when new content is released
 
 For now, the Deepnote project is linked to the Github repo. There are two ways you can go about getting the new content.
