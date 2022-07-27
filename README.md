@@ -75,3 +75,47 @@ When you launch `docker`, make sure:
 - Also, you have to open some ports for your `jupyter` interface too.
 
 Step 2 and 3 can just be replaced with `--net=host` argument if you want to do that.
+
+# Local set up on Windows
+There are 3 pieces of software you have to install:
+- Docker Desktop
+- VSCode (with extensions: Docker and remote-container)
+- Git 
+
+## Installing Docker Desktop
+
+### Installing WSL2
+As a prerequisite, you have to WSL2 installed, if you are not sure you already installed it, please follow [this guide](https://docs.microsoft.com/en-us/windows/wsl/install-manual) Up to Step 5.  If you encounter any problem, please consult their [troubleshooting website](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#installation-issues), especially the part about enabling virtualization in your BIOS.
+
+A visual guide is included in this video. This should be a very straightforward installation.
+
+### Installing Docker Desktop
+If you already have WSL2 installed, consult this [webpage](https://docs.docker.com/desktop/install/windows-install/) for installation (if you do not satisfy the requirement from their website, please use Deepnote). It should be very straightforward, download the `.exe` file and install. 
+
+A visual guide is included in this video.
+
+## Installing VScode
+
+[Download](https://code.visualstudio.com/download) VSCode installer to your machine and install it. Open it and install the extensions: 
+- Docker
+- remote-container
+
+A visual guide in included in this video
+
+## Putting Docker Desktop and VSCode together
+
+- Add my image
+- Run
+- Attach to VSCode
+- Install Jupyter and Python extension on the Docker container
+- Get cracking
+
+A visual guide is included in this video.
+
+## How to get new content
+
+Use git or just Download Zip file from Github
+
+
+
+
