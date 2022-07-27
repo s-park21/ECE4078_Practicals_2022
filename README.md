@@ -104,8 +104,7 @@ A visual guide in included in this video
 
 ## Putting Docker Desktop and VSCode together
 
-- Add my image
-- Run
+- Run this command in command prompt or powershell (please remember to specify the path to your ECE4078 folder where you have the copy of the repo) `docker run -t -p 8080-8180:8080-8180 -p 8888-89000:8888-8900 -v <PLEASE SPECIFY YOUR PATH HERE>:/root tinsirius/ece4078_prac:ubuntu`
 - Attach to VSCode
 - Install Jupyter and Python extension on the Docker container
 - Get cracking
