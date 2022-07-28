@@ -92,7 +92,7 @@ As a prerequisite, you have to WSL2 installed, if you are not sure you already i
 ### Installing Docker Desktop
 If you already have WSL2 installed, consult this [webpage](https://docs.docker.com/desktop/install/windows-install/) for installation (if you do not satisfy the requirement from their website, please use Deepnote). It should be very straightforward, download the `.exe` file and install. 
 
-
+[This](https://youtu.be/HbMPZl0Hd90) is a video of my attempt
 
 ## Installing VScode
 
