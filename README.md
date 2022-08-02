@@ -115,6 +115,71 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 
 Use git or just Download Zip file from Github.
 
+# Local set up on MacOS
+
+Credit to one of our instructor [@Juxi](https://github.com/Juxi) for this instruction. 
+
+If you are on a Apple notebook the steps are slightly different to the videos in the Readme
+
+The easiest way to run the examples and develop your code is by using 
+- Git 
+- Docker Desktop
+- VSCode (with extensions: Docker and remote-container)
+
+
+## Git: Get the code base
+
+The easiest way to  get the code is to check out the repository with Git. You can either use the GitHub Desktop application or the git command line tool to clone the repository. You can download the application here: https://desktop.github.com/
+
+If you use Git in the terminal, run:
+
+`git clone https://github.com/tinsirius/ECE4078_Practicals_2022.git` 
+
+to create the *ECE4078_Practicals_2022* folder in your local directory.
+
+NB: Remember to `git pull` the repository every week to get the new weekly code examples for the class and practical.
+
+
+## Installing Docker Desktop
+Download and install [Docker Desktop from here https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/).
+
+NB: Chose the correct chip architecture for your notebook - with newer Macs having the Apple Silicon (~575MB download)
+
+Follow the instructions there to install Docker or use the command line:
+
+`sudo hdiutil attach Docker.dmg`
+
+`sudo /Volumes/Docker/Docker.app/Contents/MacOS/install`
+
+`sudo hdiutil detach /Volumes/Docker`
+
+### Pull the ECE4078 ubuntu image
+In the Terminal you can get the docker image provided by running
+
+`docker pull tinsirius/ece4078_prac:ubuntu`
+
+After completing the download, the image should then show up in your Docker Dashboard (you can access it by clicking on the whale in the menu bar).
+
+
+## Installing Visual Studio Code (the IDE)
+Final step is to download VS Code [from here: https://code.visualstudio.com/docs?dv=osx](https://code.visualstudio.com/docs?dv=osx) (About a ~300mb download).
+
+Install the application by dragging it from the DMG into the Application folder.
+
+You should then install the `docker` and `remote containers` extensions into VSCode by clicking "View -> Extensions" to search and install thes two.
+
+
+
+## Running the Code
+
+Same as with the windows install, you need to (once) link the code repository to the docker image by running:
+
+`docker run -t -p 8080-8180:8080-8180 -p 8888-8900:8888-8900 -v <PLEASE SPECIFY YOUR PATH HERE>:/root tinsirius/ece4078_prac:ubuntu`
+
+Once that has been completed you can attach your VSCode to the running docker container like described in [Tin's video](https://youtu.be/jcNg8gg-19Y).
+
+
+
 
 
 
