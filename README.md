@@ -117,7 +117,7 @@ Use git or just Download Zip file from Github.
 
 # Local set up on MacOS
 
-Credit to one of our instructor [@Juxi](https://github.com/Juxi) for this instruction. 
+Credit to one of our instructors, [@Juxi](https://github.com/Juxi), for this instruction. 
 
 If you are on a Apple notebook the steps are slightly different to the videos in the Readme
 
