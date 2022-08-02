@@ -4,4 +4,4 @@ ipywidgets==7.7.1
 opencv-python
 otter-grader
 git+https://github.com/rdeits/meshcat-python
-ece4078==1.0.3
+ece4078==1.0.6
