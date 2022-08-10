@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
 import matplotlib.transforms as transforms
 from matplotlib.lines import Line2D
+from IPython.display import display
 
 class Singleton:
     def __init__(self, cls):
