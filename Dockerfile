@@ -1,6 +1,6 @@
 FROM tinsirius/ece4078_prac:ubuntu
 
-RUN python3 -m pip install --no-cache-dir notebook jupyterlab
+RUN python3 -m pip install --no-cache-dir notebook jupyterlab ipympl
 
 ARG NB_USER=ece4078
 ARG NB_UID=1000
