@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ece4078-jupyterlab:
+    build: .
+    ports:
+      - 8888:8888
+    container_name: ece4078-prac
+    command: "jupyter lab \
+      --NotebookApp.default_url=/lab/ \
+      --ip=0.0.0.0 \
+      --port=8888"
