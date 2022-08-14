@@ -5,7 +5,10 @@ services:
     ports:
       - 8888:8888
     container_name: ece4078-prac
+    volumes:
+      - ./:/home/ece4078/local
     command: "jupyter lab \
+      --NotebookApp.notebook_dir=/home/ece4078/local
       --NotebookApp.default_url=/lab/ \
       --ip=0.0.0.0 \
       --port=8888"
