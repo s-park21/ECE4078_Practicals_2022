@@ -111,6 +111,8 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 - Install Jupyter and Python extension on the Docker container
 - Get cracking
 
+[This](https://youtu.be/jcNg8gg-19Y) is a video of my attempt.
+
 ### Docker-Compose
 
 - To use this, please checkout branch `binder`
@@ -120,8 +122,6 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 - Start Using
 
 This is a video of my attempt
-
-[This](https://youtu.be/jcNg8gg-19Y) is a video of my attempt.
 
 ## How to get new content
 
