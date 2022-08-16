@@ -192,9 +192,8 @@ class Circle:
         for point in points:
             dx = self.center[0] - point[0]
             dy = self.center[1] - point[1]
-
+            
             dist.append(dx * dx + dy * dy)
-
         if np.min(dist) <= self.radius ** 2:
             return True
 
