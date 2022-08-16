@@ -102,7 +102,9 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 
 [This](https://youtu.be/AIyzgDLA3RI) is a video of my attempt.
 
-## Putting Docker Desktop and VSCode together
+## Running the notebook 
+
+### Docker Desktop and VSCode
 
 - Run this command in command prompt or powershell (please remember to specify the path to your ECE4078 folder where you have the copy of the repo) `docker run -t -p 8080-8180:8080-8180 -p 8888-8900:8888-8900 -v <PLEASE SPECIFY YOUR PATH HERE>:/root tinsirius/ece4078_prac:ubuntu`
 - Attach to VSCode
@@ -110,6 +112,16 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 - Get cracking
 
 [This](https://youtu.be/jcNg8gg-19Y) is a video of my attempt.
+
+### Docker-Compose
+
+- To use this, please checkout branch `binder`
+- Open terminal, navigate the the repo folder
+- Type `docker compose up --build`
+- Copy link to web browser
+- Start Using
+
+This is a video of my attempt
 
 ## How to get new content
 
