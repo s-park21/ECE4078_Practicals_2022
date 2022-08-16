@@ -129,7 +129,7 @@ class Renderer(thrd.Thread):
                 ext = [mp[0]-marker_world_width/2,mp[0]+marker_world_width/2,\
                 mp[1]-marker_world_width/2,mp[1]+marker_world_width/2]
                 ax.imshow(mi,extent=ext)
-                ax.annotate(str(i),(mp[0],mp[1]),color='red',weight='bold')
+                # ax.annotate(str(i),(mp[0],mp[1]),color='red',weight='bold')
                 self.aruco_markers[int(fprts[0][-1])] = mp
 
 
