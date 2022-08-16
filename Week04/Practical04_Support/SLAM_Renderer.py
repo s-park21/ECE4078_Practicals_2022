@@ -122,14 +122,14 @@ class Renderer(thrd.Thread):
         if add_aruco:
             marker_files = [filename for filename in os.listdir('Practical04_Support/images') if filename.startswith("M")]
             marker_world_width = 0.3
-            for i,filename in enumerate(marker_files):
+            for i,filename in enumerate(sorted(marker_files)):
                 fprts = filename.split('_')
                 mp = np.array([float(fprts[1]),float(fprts[2])])
                 mi = cv2.imread('Practical04_Support/images/'+filename)
                 ext = [mp[0]-marker_world_width/2,mp[0]+marker_world_width/2,\
                 mp[1]-marker_world_width/2,mp[1]+marker_world_width/2]
                 ax.imshow(mi,extent=ext)
-                # ax.annotate(str(i),(mp[0],mp[1]),color='red',weight='bold')
+                ax.annotate(str(i),(mp[0],mp[1]),color='red',weight='bold')
                 self.aruco_markers[int(fprts[0][-1])] = mp
 
 

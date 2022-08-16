@@ -97,7 +97,7 @@ class Renderer(thrd.Thread):
         if add_aruco:
             marker_files = [filename for filename in os.listdir('Practical04_Support/images') if filename.startswith("M")]
             marker_world_width = 0.3
-            for i,filename in enumerate(marker_files):
+            for i,filename in enumerate(sorted(marker_files)):
                 fprts = filename.split('_')
                 mp = np.array([float(fprts[1]),float(fprts[2])])
                 mi = cv2.imread('Practical04_Support/images/'+filename)
