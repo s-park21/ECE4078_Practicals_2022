@@ -78,7 +78,6 @@ class PenguinPi(object):
 		
 		Rot_theta = np.block([[np.cos(th), -np.sin(th)],[np.sin(th), np.cos(th)]])
 		robot_xy = np.array([self.x, self.y]).reshape((2,1))
-
 		measurements = []
 		for idx in idx_list:
 			marker = markers[:,idx:idx+1]
@@ -132,7 +131,6 @@ class PenguinPi(object):
 		th = self.theta
 		Rot_theta = np.block([[np.cos(th), -np.sin(th)],[np.sin(th), np.cos(th)]])
 		DRot_theta = np.block([[-np.sin(th), -np.cos(th)],[np.cos(th), -np.sin(th)]])
-
 		for i in range(n//2):
 			j = idx_list[i]
 			# i identifies which measurement to differentiate.
@@ -140,7 +138,7 @@ class PenguinPi(object):
 
 			lmj_inertial = markers[:,j:j+1]
 			# lmj_bff = Rot_theta.T @ (lmj_inertial - robot_xy)
-
+   
 			# robot xy DH
 			DH[2*i:2*i+2,0:2] = - Rot_theta.T
 			# robot theta DH
