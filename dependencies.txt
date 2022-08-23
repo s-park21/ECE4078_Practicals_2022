@@ -1,8 +1,12 @@
 numpy
 roboticstoolbox-python
 ipywidgets==7.7.1
+jupyterlab-widgets==1.1.1
 opencv-python
-otter-grader
+otter-grader==3.3.0
+plotly
+torch
+torchvision
 shapely
 git+https://github.com/rdeits/meshcat-python
 ece4078==1.0.6
