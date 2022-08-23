@@ -117,7 +117,7 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 
 - To use this, please checkout branch `binder`
 - Open terminal, navigate the the repo folder
-- Type `docker compose up --build`
+- Type `docker compose up --build --force-recreate`
 - Copy link to web browser
 - Start Using
 
