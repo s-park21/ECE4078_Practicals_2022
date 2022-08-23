@@ -1,4 +1,4 @@
-# ECE4078_Practicals_2022 [<img align="right" src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/ECE4078_Practicals_2022/binder)[<img align="right" src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/ECE4078-Practicals-e09a2c46-66e4-4822-9f63-abca8470f17c/%2FECE4078_Practicals_2022%2FWeek01%2FPractical01_PositionAndOrientation.ipynb)
+# ECE4078_Practicals_2022 [<img align="right" src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/ECE4078_Practicals_2022/binder)[<img align="right" src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/ECE4078-Practicals-e09a2c46-66e4-4822-9f63-abca8470f17c/%2FECE4078_Practicals_2022%2FWeek01%2FPractical01_PositionAndOrientation.ipynb)[<img align="right" src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/tinsirius/ECE4078_Practicals_2022)
 Repository for practicals of unit ECE4078 (Intelligent Robotics) offered in 2022.
 
 # Quick start
@@ -117,7 +117,7 @@ If you already have WSL2 installed, consult this [webpage](https://docs.docker.c
 
 - To use this, please checkout branch `binder`
 - Open terminal, navigate the the repo folder
-- Type `docker compose up --build`
+- Type `docker compose up --build --force-recreate`
 - Copy link to web browser
 - Start Using
 
