@@ -9,4 +9,5 @@ torch
 torchvision
 shapely
 git+https://github.com/rdeits/meshcat-python
+gym
 ece4078==1.0.6
