@@ -9,5 +9,8 @@ torch
 torchvision
 shapely
 git+https://github.com/rdeits/meshcat-python
-gym
+gym==0.26.0
+Box2D
+pygame
+transformers
 ece4078==1.0.6
