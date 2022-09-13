@@ -1,7 +1,7 @@
 # If you want to run on Colab
 If you want to use this notebook on google Colab, put this cell on the top and run it first
 ```
-! git clone https://github.com/dGluc2lyaXVz/RUNFNDA3OF9QcmFjdGljYWxzX3N0YWdpbmc >> /dev/null 2>&1  
+! git clone https://github.com/tinsirius/ECE4078_Practicals_2022 >> /dev/null 2>&1  
 ! python3 -m pip install gym==0.26.0 otter-grader==3.3.0 Box2D pygame >> /dev/null 2>&1  
 ```
 
