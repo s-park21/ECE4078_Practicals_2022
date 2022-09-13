@@ -1,4 +1,4 @@
-FROM tinsirius/ece4078_prac:ubuntu-8583a79
+FROM tinsirius/ece4078_prac:focal-581ced2
 
 RUN python3 -m pip install --no-cache-dir notebook jupyterlab ipympl
 
