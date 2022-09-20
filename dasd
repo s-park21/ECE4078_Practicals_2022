@@ -1,0 +1,117 @@
+*   [33m659daa7[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m asd
+[31m|[m[32m\[m  
+[31m|[m * [33m06ee846[m[33m ([m[1;31mupstream/main[m[33m)[m Week09 content
+[31m|[m * [33m21a7a33[m Update README.md
+[31m|[m * [33m551e8b0[m Update dependencies.txt
+* [32m|[m [33m8610116[m[33m ([m[1;36mHEAD -> [m[1;32mtemp[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m ads
+* [32m|[m [33mc9b06a6[m Merge branch 'tinsirius:main' into main
+[33m|[m[32m\[m[32m|[m 
+[33m|[m * [33m9bbac9d[m Week08 content
+[33m|[m * [33m215259f[m Week 07 content
+[33m|[m * [33ma517383[m Use main now
+[33m|[m *   [33me8ca6e4[m Merge branch 'main' into binder
+[33m|[m [35m|[m[36m\[m  
+[33m|[m * [36m\[m   [33m0aea551[m Merge branch 'main' into binder Update bug fix
+[33m|[m [1;31m|[m[1;32m\[m [36m\[m  
+[33m|[m * [1;32m|[m [36m|[m [33meeda8a3[m Update Dockerfile
+[33m|[m * [1;32m|[m [36m|[m   [33mbc651c3[m Merge branch 'main' into binder Week05
+[33m|[m [1;33m|[m[1;34m\[m [1;32m\[m [36m\[m  
+[33m|[m * [1;34m\[m [1;32m\[m [36m\[m   [33m57f0406[m Merge branch 'main' into binder
+[33m|[m [1;35m|[m[1;36m\[m [1;34m\[m [1;32m\[m [36m\[m  
+[33m|[m * [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m   [33m0b9f124[m Merge branch 'main' into binder
+[33m|[m [31m|[m[32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m  
+[33m|[m * [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m   [33mf5c2778[m Merge branch 'main' into binder
+[33m|[m [33m|[m[34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m  
+[33m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [33m4ceb488[m mounting instead of copying for local
+[33m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [33mac757dd[m Update build to have git-based tag
+[33m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [33m72657ed[m add Docker-compose
+[33m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [33m3871c05[m jupyterlab matplotlit
+[33m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [33m62128c4[m Add Dockerfile for Binder
+* [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [33mb0f6d76[m Almost working W6
+* [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m   [33m7031118[m Merge branch 'tinsirius:main' into main
+[35m|[m[36m\[m [34m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m  
+[35m|[m [36m|[m [34m|[m[36m_[m[34m|[m[36m_[m[32m|[m[36m_[m[1;36m|[m[36m_[m[1;34m|[m[36m_[m[1;32m|[m[36m/[m  
+[35m|[m [36m|[m[36m/[m[34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m   
+[35m|[m * [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [33m43beae6[m Week06 content
+[35m|[m [1;32m|[m [34m|[m[1;32m_[m[34m|[m[1;32m_[m[32m|[m[1;32m_[m[1;36m|[m[1;32m_[m[1;34m|[m[1;32m/[m  
+[35m|[m [1;32m|[m[1;32m/[m[34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m   
+* [1;32m|[m [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m8f4a4da[m Working Ex W5
+* [1;32m|[m [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33me31d586[m Merge branch 'tinsirius:main' into main
+[1;31m|[m[1;32m\[m[1;32m|[m [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m 
+[1;31m|[m * [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m3dbf047[m Update README.md
+[1;31m|[m * [34m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m0eec804[m GPU bug fix
+[1;31m|[m [1;34m|[m [34m|[m[1;34m_[m[34m|[m[1;34m_[m[32m|[m[1;34m_[m[1;36m|[m[1;34m/[m  
+[1;31m|[m [1;34m|[m[1;34m/[m[34m|[m [34m|[m [32m|[m [1;36m|[m   
+[1;31m|[m * [34m|[m [34m|[m [32m|[m [1;36m|[m [33mff2ab23[m Week05 content
+[1;31m|[m * [34m|[m [34m|[m [32m|[m [1;36m|[m [33mf44044d[m Update README.md
+[1;31m|[m * [34m|[m [34m|[m [32m|[m [1;36m|[m [33m7014cdb[m Update dependencies.txt
+[1;31m|[m [1;36m|[m [34m|[m[1;36m_[m[34m|[m[1;36m_[m[32m|[m[1;36m/[m  
+[1;31m|[m [1;36m|[m[1;36m/[m[34m|[m [34m|[m [32m|[m   
+* [1;36m|[m [34m|[m [34m|[m [32m|[m [33m17a9b13[m Working W4 prac
+* [1;36m|[m [34m|[m [34m|[m [32m|[m   [33m584f2d1[m W4 ex runs not wokring
+[1;33m|[m[1;34m\[m [1;36m\[m [34m\[m [34m\[m [32m\[m  
+[1;33m|[m * [1;36m\[m [34m\[m [34m\[m [32m\[m   [33m5b7d749[m Merge branch 'main' of https://github.com/s-park21/ECE4078_Practicals_2022
+[1;33m|[m [1;35m|[m[1;36m\[m [1;36m\[m [34m\[m [34m\[m [32m\[m  
+[1;33m|[m * [1;36m|[m [1;36m|[m [34m|[m [34m|[m [32m|[m [33m18c9be5[m Not working W4 Ex
+* [1;36m|[m [1;36m|[m [1;36m|[m [34m|[m [34m|[m [32m|[m [33ma4a32a2[m W4 Ex runs but not working
+[1;36m|[m [1;36m|[m[1;36m/[m [1;36m/[m [34m/[m [34m/[m [32m/[m  
+[1;36m|[m[1;36m/[m[1;36m|[m [1;36m|[m [34m|[m [34m|[m [32m|[m   
+* [1;36m|[m [1;36m|[m [34m|[m [34m|[m [32m|[m [33mf1d3d37[m Not working Ex. W4
+[1;36m|[m[1;36m/[m [1;36m/[m [34m/[m [34m/[m [32m/[m  
+* [1;36m|[m [34m|[m [34m|[m [32m|[m [33m0f54ab8[m KF and EKF working
+* [1;36m|[m [34m|[m [34m|[m [32m|[m [33m91dc284[m Working W3 Execise
+* [1;36m|[m [34m|[m [34m|[m [32m|[m [33m2f50f83[m Merge branch 'tinsirius:main' into main
+[31m|[m[1;36m\[m[1;36m|[m [34m|[m [34m|[m [32m|[m 
+[31m|[m * [34m|[m [34m|[m [32m|[m [33m7cd9e3f[m Fix annotation bug
+[31m|[m [32m|[m [34m|[m[32m_[m[34m|[m[32m/[m  
+[31m|[m [32m|[m[32m/[m[34m|[m [34m|[m   
+[31m|[m * [34m|[m [34m|[m [33md282ee5[m remove annotation
+[31m|[m [34m|[m [34m|[m[34m/[m  
+[31m|[m [34m|[m[34m/[m[34m|[m   
+[31m|[m * [34m|[m [33m321e4b9[m Week04 content
+[31m|[m * [34m|[m [33me0c5f5f[m Update README.md
+[31m|[m * [34m|[m [33me78d5bc[m Update README.md
+* [32m|[m [34m|[m [33m1f11e0f[m Merge branch 'tinsirius:main' into main
+[33m|[m[32m\[m[32m|[m [34m|[m 
+[33m|[m * [34m|[m [33mfb47c11[m Add binder badge
+[33m|[m [34m|[m[34m/[m  
+[33m|[m * [33m53d39f4[m Proper import
+* [34m|[m [33m84d370e[m W3 lecture work
+* [34m|[m [33m137f3a7[m Merge branch 'tinsirius:main' into main
+[35m|[m[34m\[m[34m|[m 
+[35m|[m * [33mf035dca[m Typo
+[35m|[m * [33m758f3e9[m Add test case Week03, minor changes
+[35m|[m * [33m3f39212[m Update dependencies
+[35m|[m * [33mad1c182[m Week03 content is up (no test case)
+* [36m|[m [33mefc68aa[m Working W2 exercises. Need to verify
+* [36m|[m [33m58c213e[m exercise w2
+* [36m|[m [33m7f53de2[m Workshop W2 update
+[36m|[m[36m/[m  
+* [33m2d741e7[m grammar
+* [33m0afa0de[m Include MACOS Docker instruction
+* [33m1e618f7[m update ece4078
+* [33m33660a9[m Add test cases for Week02
+* [33m002debf[m Add Week02 content
+* [33m35acc2e[m Update README.md
+* [33m005f429[m Update README.md
+* [33mcc4c5f5[m Update README.md
+* [33mb52f88f[m Update README.md
+* [33mb41550b[m Draft instruction for running locally
+* [33m59749c1[m Remove Flux prompt
+* [33ma01b418[m Update README.md
+* [33m1fff33f[m Add comment on Grading
+* [33m72a439b[m Typo Fix
+* [33ma87cdb2[m Change requirements.txt to dependencies.txt
+* [33mab33b3c[m Update README
+* [33m1ecea9e[m Update Youtube Link
+* [33m05cc964[m Update README.md
+* [33m3e3920d[m Cleaning up Notebooks
+* [33m9723095[m Add test case for Week01 exercise
+* [33m3778cac[m Update Week01 Exercise for 2022
+* [33mb80f248[m Move badge to right
+* [33m3aec037[m Add Launch in Deepnote badge
+* [33m3ccd2ef[m clean up directory
+* [33mc8cef92[m Update to use ece4078 package
+* [33md22d409[m Add exercise to Week01
+* [33md844429[m Publish Week01 material
+* [33m9a7890c[m Initial commit
